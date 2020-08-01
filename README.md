@@ -39,7 +39,7 @@ Pytorch compiled with ROCm.
 ### Start compiling, this will last for a long time.
   ```
   export USE_NINJA=1
-  USE_CUDA=0 USE_ROCM=1 USE_LMDB=1 BUILD_CAFFE2_OPS=0 BUILD_TEST=0 USE_OPENCV=1 MAX_JOBS=2 python setup.py bdist_wheel
+  USE_CUDA=0 USE_ROCM=1 USE_LMDB=1 USE_OPENCV=1 MAX_JOBS=2 python setup.py bdist_wheel
   ```
   
 ### Install whl.
